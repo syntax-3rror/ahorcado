@@ -1972,3 +1972,22 @@ D, [2014-11-19T23:32:17.712853 #24350] DEBUG -- : REQUESTING PAGE: GET / with {}
 D, [2014-11-19T23:32:17.716145 #24350] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2014-11-19T23:32:17.722044 #24350] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2014-11-19T23:32:17.724386 #24350] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-20T06:45:03.593776 #3264] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-20T06:45:03.806915 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-20T06:45:03.851678 #3264] DEBUG -- : REQUESTING PAGE: GET /jugar with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-20T06:45:03.853962 #3264] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-20T06:45:03.856429 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-20T06:45:03.861036 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"p", "espacio"=>"-----", "errores"=>"0", "posicion"=>"0", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-20T06:45:03.882082 #3264] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-20T06:45:03.884953 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-20T06:45:03.889437 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"e", "espacio"=>"-----", "errores"=>"0", "posicion"=>"0", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-20T06:45:03.902547 #3264] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-20T06:45:03.906308 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-20T06:45:03.911331 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"r", "espacio"=>"-----", "errores"=>"0", "posicion"=>"0", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-20T06:45:03.914910 #3264] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-20T06:45:03.917662 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-20T06:45:03.923991 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"o", "espacio"=>"-----", "errores"=>"0", "posicion"=>"0", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-20T06:45:03.927729 #3264] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-20T06:45:03.930571 #3264] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-20T06:45:03.934848 #3264] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-20T06:45:03.937140 #3264] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/"}
