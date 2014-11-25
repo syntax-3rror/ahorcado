@@ -10,23 +10,21 @@
 	<input type="hidden" name="posicion" value=<%=@posicion%>>
 	<input type="submit" name="Insertar" value="Insertar">
 
-	<pre>
+<pre>
 	<%case @errores.to_i  
 		when 1%>
 		
  			O
  		<%when 2%>
- 			 		
  			O
  		   /|\
  		<%when 3%>
- 		
  			O
  		   /|\	
  		   /|\
 
-<%end%>
- </pre>
+	<%end%>
+</pre>
 	
 </form>
 
