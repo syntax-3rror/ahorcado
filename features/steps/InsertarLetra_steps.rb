@@ -9,5 +9,5 @@ Given(/^asigno a "(.*?)" caracter "(.*?)"$/) do |field, value|
 end
 
 Then(/^deberia mostrar "(.*?)"$/) do |oculta|
-  expect(last_response.body).to include(oculta)
+   last_response.body.should include #{oculta}
 end

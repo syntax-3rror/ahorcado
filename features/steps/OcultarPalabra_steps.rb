@@ -11,5 +11,5 @@ end
 
 Then(/^deberia ver "(.*?)"$/) do |oculto|
   #last_response.body.should include /{oculto}/m
-  expect(last_response.body).to include(oculto)
+   last_response.body.should include #{oculto}
 end
