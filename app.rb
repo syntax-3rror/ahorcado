@@ -2,10 +2,10 @@ require 'sinatra'
 
 before do
   @diccionario=["perro","gato"]
-  @posicion=0
-  
 end
 
+
+ $resultados=["","",""]
 
 get '/' do
 	erb :bienvenida
@@ -39,9 +39,17 @@ post '/jugar' do
 		end
 	end
 	if (@errores.to_s=="3")
+		@resp="La palabra secreta era "+@palabra
+		$resultados[0]=$resultados[1]
+		$resultados[1]=$resultados[2]
+		$resultados[2]=@resp
 		redirect "/perdedor"
 	end
 	if (@espacio==@palabra)
+		@resp="Gano con "+@errores+" errores"
+		$resultados[0]=$resultados[1]
+		$resultados[1]=$resultados[2]
+		$resultados[2]=@resp
 		redirect "/ganador"
 	end 
 	
