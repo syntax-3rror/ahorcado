@@ -4,7 +4,7 @@ Feature:Perdedor
 		When tengo 3 errores
 		Then Deberia ver el mensaje "usted perdio la palabra es" "palabra"
 
-	Scenario: Se debe poder ver 
+	Scenario: Se debe poder volver a jugar
 		Given Dado que me encuentro en la pagina perdedor 
-		When tengo 3 errores
-		Then Deberia ver el mensaje "usted perdio la palabra es" "palabra"
+		When hago click en boton "Jugar"
+		Then debo poder ver "Bienvenido al Juego AHORCADO"
