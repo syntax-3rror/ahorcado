@@ -2069,3 +2069,87 @@ D, [2014-11-27T03:01:54.601643 #497] DEBUG -- : REQUESTING PAGE: GET / with {} a
 D, [2014-11-27T03:01:54.604112 #497] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"4", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2014-11-27T03:01:54.605819 #497] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
 D, [2014-11-27T03:01:54.608275 #497] DEBUG -- : REQUESTING PAGE: POST /agregar_palabras with {"palabra"=>"", "Agregar_Palabra"=>"Agregar_Palabra"} and HTTP headers {"HTTP_REFERER"=>"/ganador"}
+D, [2014-11-27T03:02:56.843705 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.856592 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"2", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.860759 #527] DEBUG -- : REQUESTING PAGE: GET /jugar with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.863598 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.866733 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.871102 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"p", "espacio"=>"----", "errores"=>"0", "posicion"=>"1", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.875026 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.878210 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.884320 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"e", "espacio"=>"-----", "errores"=>"0", "posicion"=>"0", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.887479 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.890148 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.893970 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"r", "espacio"=>"----", "errores"=>"0", "posicion"=>"1", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.896978 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.899896 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.904380 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"o", "espacio"=>"-----", "errores"=>"0", "posicion"=>"0", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.907744 #527] DEBUG -- : REQUESTING PAGE: GET /jugar with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.910324 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.915518 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"3", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.919887 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.922672 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.924378 #527] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.926693 #527] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/perdedor"}
+D, [2014-11-27T03:02:56.928867 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.931499 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.933750 #527] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.938665 #527] DEBUG -- : REQUESTING PAGE: GET / with {"Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/perdedor"}
+D, [2014-11-27T03:02:56.941321 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.944117 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.946074 #527] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.950701 #527] DEBUG -- : REQUESTING PAGE: POST /agregar_palabras with {"palabra"=>"", "Agregar_Palabra"=>"Agregar_Palabra"} and HTTP headers {"HTTP_REFERER"=>"/ganador"}
+D, [2014-11-27T03:02:56.954902 #527] DEBUG -- : REQUESTING PAGE: POST /agregar_palabras with {"palabra"=>"tele", "agregar"=>"agregar"} and HTTP headers {"HTTP_REFERER"=>"/agregar_palabras"}
+D, [2014-11-27T03:02:56.957727 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.960190 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"2", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.961939 #527] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.965009 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.968111 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.969929 #527] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.972155 #527] DEBUG -- : REQUESTING PAGE: GET / with {"Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/ganador"}
+D, [2014-11-27T03:02:56.974434 #527] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:02:56.977224 #527] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"2", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:02:56.979213 #527] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:02:56.984784 #527] DEBUG -- : REQUESTING PAGE: POST /agregar_palabras with {"palabra"=>"", "Agregar_Palabra"=>"Agregar_Palabra"} and HTTP headers {"HTTP_REFERER"=>"/ganador"}
+D, [2014-11-27T03:03:00.541155 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.570331 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"2", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.575788 #532] DEBUG -- : REQUESTING PAGE: GET /jugar with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.578412 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.581282 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.585612 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"p", "espacio"=>"----", "errores"=>"0", "posicion"=>"1", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.589474 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.591838 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"2", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.595322 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"e", "espacio"=>"----", "errores"=>"0", "posicion"=>"2", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.598362 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.600687 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.604636 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"r", "espacio"=>"----", "errores"=>"0", "posicion"=>"1", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.610016 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.613180 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.617154 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"letra"=>"o", "espacio"=>"----", "errores"=>"0", "posicion"=>"1", "Insertar"=>"Insertar"} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.620804 #532] DEBUG -- : REQUESTING PAGE: GET /jugar with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.623370 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.625987 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"2", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.629961 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.632697 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.634350 #532] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.636630 #532] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/perdedor"}
+D, [2014-11-27T03:03:00.639652 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.644046 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"2", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.646627 #532] DEBUG -- : REQUESTING PAGE: GET /perdedor with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.649124 #532] DEBUG -- : REQUESTING PAGE: GET / with {"Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/perdedor"}
+D, [2014-11-27T03:03:00.652421 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.656994 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.658588 #532] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.660687 #532] DEBUG -- : REQUESTING PAGE: POST /agregar_palabras with {"palabra"=>"", "Agregar_Palabra"=>"Agregar_Palabra"} and HTTP headers {"HTTP_REFERER"=>"/ganador"}
+D, [2014-11-27T03:03:00.663849 #532] DEBUG -- : REQUESTING PAGE: POST /agregar_palabras with {"palabra"=>"tele", "agregar"=>"agregar"} and HTTP headers {"HTTP_REFERER"=>"/agregar_palabras"}
+D, [2014-11-27T03:03:00.667432 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.669851 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"1", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.672381 #532] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.678660 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.682452 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"4", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.684378 #532] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.687052 #532] DEBUG -- : REQUESTING PAGE: GET / with {"Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/ganador"}
+D, [2014-11-27T03:03:00.689834 #532] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2014-11-27T03:03:00.692123 #532] DEBUG -- : REQUESTING PAGE: POST /jugar with {"espacio"=>"", "errores"=>"0", "letra"=>"", "posicion"=>"0", "Jugar"=>"Jugar"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2014-11-27T03:03:00.693832 #532] DEBUG -- : REQUESTING PAGE: GET /ganador with {} and HTTP headers {"HTTP_REFERER"=>"/jugar"}
+D, [2014-11-27T03:03:00.696184 #532] DEBUG -- : REQUESTING PAGE: POST /agregar_palabras with {"palabra"=>"", "Agregar_Palabra"=>"Agregar_Palabra"} and HTTP headers {"HTTP_REFERER"=>"/ganador"}
