@@ -1,6 +1,9 @@
-Given(/^Dado que me encuentro en la pagina jugar$/) do
+Given(/^Dado que me encuentro en la pagina perdedor$/) do
 
  visit '/'
+  click_button('Jugar')
+  #redirect ganador
+  visit '/perdedor'
 
 end
 
