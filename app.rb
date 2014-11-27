@@ -1,7 +1,8 @@
 require 'sinatra'
 
 before do
-  @diccionario=["perro","gato"]
+  @diccionario=["perro","gato","loro","vaca"]
+  
 end
 
 
@@ -17,6 +18,7 @@ post '/jugar' do
 	@errores = params[:errores]
 	@posicion=params[:posicion]
 	@palabra=@diccionario[@posicion.to_i]
+
 
 	@i=0
 	@tam=@palabra.length
@@ -40,22 +42,21 @@ post '/jugar' do
 	end
 	if (@errores.to_s=="3")
 		@resp="La palabra secreta era "+@palabra
-		$resultados[0]=$resultados[1]
-		$resultados[1]=$resultados[2]
-		$resultados[2]=@resp
+		agregar_resultado(@resp)
+		 
 		redirect "/perdedor"
 	end
 	if (@espacio==@palabra)
 		@resp="Gano con "+@errores+" errores"
-		$resultados[0]=$resultados[1]
-		$resultados[1]=$resultados[2]
-		$resultados[2]=@resp
+		agregar_resultado(@resp)
 		redirect "/ganador"
 	end 
+	
 	
 	erb :jugar
 end
 get '/perdedor' do
+
 erb :perdedor
 end
 
@@ -72,3 +73,9 @@ get '/ganador' do
   erb :ganador
 end
 
+def agregar_resultado(respuesta)
+	$resultados[0]=$resultados[1]
+	$resultados[1]=$resultados[2]
+	$resultados[2]=respuesta
+	
+end
