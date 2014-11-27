@@ -5,7 +5,7 @@ before do
   
 end
 
-
+$palabra=""
  $resultados=["","",""]
 
 get '/' do
@@ -42,6 +42,7 @@ post '/jugar' do
 	end
 	if (@errores.to_s=="3")
 		@resp="La palabra secreta era "+@palabra
+		$palabra=@palabra
 		agregar_resultado(@resp)
 		 
 		redirect "/perdedor"
