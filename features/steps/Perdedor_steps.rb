@@ -12,7 +12,7 @@ end
 Then(/^Deberia ver el mensaje "(.*?)" "(.*?)"$/) do |mensaje, palabra|
  
  visit"/perdedor"
- last_response.body.should include #{mensaje} 
- last_response.body.should include #{palabra}
+ last_response.body.should include {mensaje} 
+ last_response.body.should include {palabra}
 
 end
