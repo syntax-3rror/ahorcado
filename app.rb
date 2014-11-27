@@ -1,12 +1,8 @@
 require 'sinatra'
 
-before do
-  @diccionario=["perro","gato","loro","vaca"]
-  
-end
-
+$diccionario=["perro","gato","loro","vaca"]
 $palabra=""
- $resultados=["","",""]
+$resultados=["","",""]
 
 get '/' do
 	erb :bienvenida
@@ -17,7 +13,7 @@ post '/jugar' do
 	@letra= params[:letra]
 	@errores = params[:errores]
 	@posicion=params[:posicion]
-	@palabra=@diccionario[@posicion.to_i]
+	@palabra=$diccionario[@posicion.to_i]
 
 
 	@i=0

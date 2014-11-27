@@ -5,6 +5,11 @@ Given(/^me encuentro en la pagina ganador$/) do
   #visit '/ganador'
 end
 
-Given(/^debo poder ver el resultado$/) do
-  pending # express the regexp above with the code you wish you had
+Then(/^debo poder ver "(.*?)"$/) do |felicitar|
+  last_response.body.should include {felicitar}
 end
+
+Then(/^debe mostrar "(.*?)"$/) do |result|
+  last_response.body.should include {result}
+end
+
