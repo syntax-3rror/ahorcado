@@ -52,13 +52,23 @@ post '/jugar' do
 	
 	erb :jugar
 end
-get '/perdedor' do
 
-erb :perdedor
+
+get '/perdedor' do
+	erb :perdedor
 end
 
-get '/agregar_palabras' do
-	erb :agregar_palabras.erb
+
+post '/agregar_palabras' do
+	@palabra=params[:palabra]
+	@tam=($diccionario.length)-1
+	@ultima=$diccionario[@tam-1]
+	if @palabra!=""
+		@tam=@tam+1
+		$diccionario[@tam]=@palabra
+	end
+
+	erb :agregar_palabras
 end
 
 
@@ -66,13 +76,14 @@ post '/mensaje' do
 	
 end
 
+
 get '/ganador' do
   erb :ganador
 end
 
+
 def agregar_resultado(respuesta)
 	$resultados[0]=$resultados[1]
 	$resultados[1]=$resultados[2]
-	$resultados[2]=respuesta
-	
+	$resultados[2]=respuesta	
 end
